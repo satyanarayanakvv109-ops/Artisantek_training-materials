@@ -9,7 +9,7 @@ Because of this immense power, it is a massive security risk to log in directly 
 `sudo` stands for **Super User Does**. It allows a normal user to temporarily elevate their privileges to execute a specific command as `root` (or as another user).
 
 ### The Principle of Least Privilege
-`sudo` enforces the **Principle of Least Privilege**. You log in as a normal user with limited rights. 95% of the time, that's all you need. For the 5% of the time you need administrative power (like installing a package or restarting a web server), you use `sudo` for just that one command.
+`sudo` enforces the **Principle of Least Privilege**. You log in as a normal user with limited rights. 95% of the time, that's all you need. For the 5% of the time you need administrative power (like installing a package or restarting a service), you use `sudo` for just that one command.
 
 ### The Auditing Benefit
 Beyond security, `sudo` provides **accountability**. If three developers share the `root` password, and one accidentally deletes the database, the system logs just show that "`root` deleted the database". You don't know who did it. 

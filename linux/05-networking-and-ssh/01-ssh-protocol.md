@@ -54,7 +54,6 @@ To fix this, you must restrict the permissions so *only you* can read it:
 ```bash
 chmod 400 my-aws-key.pem  # Read-only for the owner, no access for anyone else
 ```
-*(You'll learn more about file permissions in the dedicated permissions section).*
 
 ## Pro-Tip: The SSH Config File
 
