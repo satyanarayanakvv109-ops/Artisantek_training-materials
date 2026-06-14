@@ -23,10 +23,23 @@ Getting comfortable with the terminal and navigating the file system.
 - **[Home Directory](./02-shell-and-navigation/02-home-directory.md)** — Your personal space, the `~` shortcut, and hidden config files
 - **[Commands and Arguments](./02-shell-and-navigation/03-commands-and-arguments.md)** — Anatomy of a command, options, flags, and getting help
 - **[Relative Path vs Absolute Path](./02-shell-and-navigation/04-relative-vs-absolute-path.md)** — Two ways to describe a location, when to use which
+- **[Wildcards and File Globbing](./02-shell-and-navigation/05-wildcards-and-globbing.md)** — Using `*`, `?`, and `[]` to match multiple files
 
 ### 03 - I/O and Data Streams
 Understanding how data flows through Linux commands.
 - **[Data Streams — stdin, stdout, and stderr](./03-io-and-data-streams/01-data-streams.md)** — The three streams every command uses, and why they're separate
+
+### 04 - Users and Permissions
+Managing who has access to the system and what they can do.
+- **[SUDO (Super User Does)](./04-users-and-permissions/01-sudo-and-permissions.md)** — Running commands with root privileges and understanding `/etc/sudoers`
+
+### 05 - Networking and SSH
+Connecting to remote systems securely.
+- **[SSH (Secure Shell)](./05-networking-and-ssh/01-ssh-protocol.md)** — The protocol, common ports, and setting up passwordless key-based access
+
+### 06 - Services and systemd
+Managing background processes and the system initialization.
+- **[Services and systemctl](./06-services-and-systemd/01-systemd-and-systemctl.md)** — Understanding `systemd`, managing services with `systemctl`, and how unit files work
 
 ---
 
@@ -41,8 +54,11 @@ Understanding how data flows through Linux commands.
 ```
 linux/
 ├── 01-introduction/               # What, why, and the landscape
-├── 02-shell-and-navigation/       # Terminal, paths, commands
+├── 02-shell-and-navigation/       # Terminal, paths, commands, wildcards
 ├── 03-io-and-data-streams/        # stdin, stdout, stderr, pipes
+├── 04-users-and-permissions/      # sudo, root, sudoers
+├── 05-networking-and-ssh/         # SSH, ports, keys
+├── 06-services-and-systemd/       # systemd, systemctl, daemons
 ├── images/                        # All screenshots and diagrams
 └── README.md                      # This file
 ```
