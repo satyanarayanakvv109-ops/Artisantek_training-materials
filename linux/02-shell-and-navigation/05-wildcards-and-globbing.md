@@ -54,4 +54,4 @@ If no files match the pattern, the shell usually passes the literal wildcard str
 - `[]` matches one character from a specified set or range.
 - The **shell** expands these patterns before the command even runs.
 
-[⬅️ Previous: Relative vs Absolute Path](./04-relative-vs-absolute-path.md)
+**⬅️ Previous:** [Relative vs Absolute Path](./04-relative-vs-absolute-path.md) · **Next ➡️** [Variables and Expansions](./06-variables-and-expansions.md)

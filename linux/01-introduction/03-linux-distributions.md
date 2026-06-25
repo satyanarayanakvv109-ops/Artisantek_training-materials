@@ -202,4 +202,4 @@ What are you doing?
 
 ---
 
-**← Previous:** [Why Linux for Deployment](./02-why-linux-for-deployment.md) · **Back to** [Linux Home](../README.md)
+**← Previous:** [Why Linux for Deployment](./02-why-linux-for-deployment.md) · **Next →** [Linux Architecture](./04-linux-architecture.md)

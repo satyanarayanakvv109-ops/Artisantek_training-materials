@@ -16,6 +16,7 @@ Foundational concepts — what Linux is, why it matters, and the landscape of di
 - **[What is Linux?](./01-introduction/01-what-is-linux.md)** — Kernel vs OS, history, and core architecture
 - **[Why Linux for Deployment](./01-introduction/02-why-linux-for-deployment.md)** — Cost, security, performance, and why the industry runs on Linux
 - **[Linux Distributions](./01-introduction/03-linux-distributions.md)** — Distro families, package managers, and choosing the right one
+- **[Linux Architecture](./01-introduction/04-linux-architecture.md)** — Hardware, Kernel, Shell, and Applications
 
 ### 02 - Shell and Navigation
 Getting comfortable with the terminal and navigating the file system.
@@ -24,6 +25,8 @@ Getting comfortable with the terminal and navigating the file system.
 - **[Commands and Arguments](./02-shell-and-navigation/03-commands-and-arguments.md)** — Anatomy of a command, options, flags, and getting help
 - **[Relative Path vs Absolute Path](./02-shell-and-navigation/04-relative-vs-absolute-path.md)** — Two ways to describe a location, when to use which
 - **[Wildcards and File Globbing](./02-shell-and-navigation/05-wildcards-and-globbing.md)** — Using `*`, `?`, and `[]` to match multiple files
+- **[Variables and Expansions](./02-shell-and-navigation/06-variables-and-expansions.md)** — Variable assignment, command substitution `$()`, and arithmetic `$(( ))`
+- **[Mastering the Find Command](./02-shell-and-navigation/07-mastering-find.md)** — Advanced usage of `find`, focusing on `-exec {} \+` vs `\;`
 
 ### 03 - I/O and Data Streams
 Understanding how data flows through Linux commands.
